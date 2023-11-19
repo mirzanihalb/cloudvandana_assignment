@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="logic.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="second-line cal-items">
+            <div class="cal-items-ind-input"><input id="inp" type="text" value=""> </div>
+        
+        <div class="cal-items-ind-ac" onclick="handlebuttons('ac')"><p>AC</p></div>
+        </div>
+        <div class="third-line cal-items">
+            <div class="cal-items-ind" onclick="handlebuttons(9)"><p>9</p></div>
+        <div class="cal-items-ind" onclick="handlebuttons(8)"><p>8</p></div>
+        <div class="cal-items-ind" onclick="handlebuttons(7)"><p>7</p></div>
+        <div class="operation" onclick="handlebuttons('+')"><p>+</p></div>
+        </div>
+        <div class="fourth-line cal-items">
+            <div class="cal-items-ind" onclick="handlebuttons(4)"><p>4</p></div>
+        <div class="cal-items-ind" onclick="handlebuttons(5)"><p>5</p></div>
+        <div class="cal-items-ind" onclick="handlebuttons(6)"><p>6</p></div>
+        <div class="operation" onclick="handlebuttons('-')"><p>-</p></div>
+        </div>
+        <div class="fifth-line cal-items">
+            <div class="cal-items-ind" onclick="handlebuttons(1)"><p>1</p></div>
+        <div class="cal-items-ind" onclick="handlebuttons(2)"><p>2</p></div>
+        <div class="cal-items-ind" onclick="handlebuttons(3)"><p>3</p></div>
+        <div class="operation" onclick="handlebuttons('/')"><p>/</p></div>
+        </div>
+        <div class="first cal-items">
+            <div class="cal-items-ind" onclick="handlebuttons()"><p>.</p></div>
+        <div class="cal-items-ind" onclick="handlebuttons(0)"><p>0</p></div>
+        <div class="cal-items-ind" onclick="handle()"><p>=</p></div>
+        <div class=" operation" onclick="handlebuttons('*')"><p>*</p></div>
+        </div>
+        
+        
+        
+    </div>
+</body>
+</html>

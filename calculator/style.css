@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.container{
+    display: flex;
+    /* border: 2px solid black; */
+    /* margin: 0% 50%; */
+    margin-top: 200px;
+    justify-content: center;
+    flex-direction: column;
+    
+    width: 400px;
+    /* height: 300px; */
+}
+
+.cal-items{
+    /* width: 40px;
+    height: 40px; */
+    display: flex;
+    /* border: 1px solid black; */
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: gray;
+    
+}
+.cal-items-ind{
+    width: 100%;
+    /* border: 2px solid white; */
+    text-align: center;
+    background-color: black;
+
+}
+.cal-items-ind:hover,
+.operation:hover
+.cal-items-ind-ac:hover{
+    cursor: pointer;
+}
+.cal-items-ind-input{
+    width: 74%;
+    
+    background-color: wheat;
+}
+input{
+    width: 100%;
+    height: 100%;
+    font-weight: 900;
+}
+.cal-items-ind-ac{
+    width: 25%;
+    text-align: center;
+    background-color: teal;
+}
+.operation{
+    width: 100%;
+    /* border: 2px solid white; */
+    text-align: center;
+    
+    background-color: gray;
+}
+div div p:hover{
+    cursor: pointer;
+}
+.cal-items-ind:hover{
+    background-color: teal;
+    font-weight: 800;
+}
+.operation:hover{
+    background-color: teal
+
+}
